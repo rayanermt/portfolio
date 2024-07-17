@@ -253,6 +253,7 @@ footer {
 
     .hero {
         flex-wrap: nowrap;
+        gap: 4em;
     }
 
     .project__info-wrapper {
