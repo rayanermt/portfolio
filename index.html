@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayane Reis - Portfolio</title>
+
+    <script src="https://kit.fontawesome.com/e676755a76.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="header-menu">
+            <ul>
+                <li><a href="#hero">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero" id="hero">
+        <div class="hero__photo">
+            <img src="img/foto.png" alt="Fotografia de Rayane">
+        </div>
+        <div class="hero__text">
+            <h2>Prazer, meu nome é <span class="contrast">Rayane</span>!
+            <img src="./img/emoji-titulo.png"></h2>
+            <p>Graduanda em Sistemas de Informação na Universidade Federal de Uberlândia, estou construindo uma base sólida em computação ao mesmo tempo que busco adquirir conhecimentos em desenvolvimento fullstack.</p>
+            <div class="hero__buttons">
+                <button id="curriculo-button">
+                    <a href="./Currículo.pdf" target=”_blank”><i class="fa-brands fa-document"></i>Currículo</a>
+                </button>
+                <div class="buttons__social">
+                    <a href="https://github.com/rayanermt"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://wa.me/5534992101306"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/rayane-reis-mota-896b0a21b"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h3>Projetos</h3>
+        <p class="subheader">Estou estudando para criar aplicações responsivas, acessíveis e com bom desempenho, aplicando boas práticas de design e programação.</p>
+        <div class="project-card card-left">
+            <div class="project__tags">
+                <span class="project__tag tag-html-css">HTML/CSS</span>
+                <span class="project__tag tag-js">JS</span>
+            </div>
+            <div class="project__info-wrapper">
+                <img src="img/projeto-1.jpg" alt="">
+                <div class="project__description">
+                    <h4>Homepage de E-Commerce</h3>
+                    <p>Página responsivo para uma loja de cosméticos. O usuário pode adicionar e retirar itens do carrinho de compras.</p>
+                </div>
+            </div>
+            <div class="project__buttons">
+                <a href="https://github.com/rayanermt/pure-beauty-cosmeticos">Código<i class="fa-solid fa-chevron-right"></i></a>
+                <a href="https://rayanermt.github.io/pure-beauty-cosmeticos/">Live Preview<i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+        </div>
+
+        <div class="project-card card-right">
+             <div class="project__tags">
+                 <span class="project__tag tag-html-css">HTML/CSS</span>
+                 <span class="project__tag tag-js">JS</span>
+                 <span class="project__tag tag-react">React.Js</span>
+             </div>
+             <div class="project__info-wrapper">
+                 <img src="img/projeto-2.jpg" alt="">
+                 <div class="project__description">
+                     <h4>Homepage Estática para Empresa</h3>
+                     <p>Página estática responsiva para uma empresa de impressão 3D, desenvolvida em React.js e prototipada no Figma.</p>
+                 </div>
+             </div>
+            <div class="project__buttons">
+                <a href="https://github.com/rayanermt/raft-3d">Código<i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+        </div>
+
+        <div class="project-card card-right">
+             <div class="project__tags">
+                 <span class="project__tag tag-html-css">HTML/CSS</span>
+                 <span class="project__tag tag-js">JS</span>
+             </div>
+             <div class="project__info-wrapper">
+                 <img src="img/projeto-3.jpg" alt="">
+                 <div class="project__description">
+                     <h4>Lista de Compras</h3>
+                        <p>Ferramenta para auxiliar no cálculo de compras de supermercado. Pode-se adicionar, retirar e editar ítens, com cálculo automático do valor final.</p>
+                    </div>
+            </div>
+            <div class="project__buttons">
+                <a href="https://github.com/rayanermt/lista-compras">Código<i class="fa-solid fa-chevron-right"></i></a>
+                <a href="https://rayanermt.github.io/lista-compras/">Live Preview<i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Desenvolvido por Rayane Reis em 2024</p>
+    </footer>
+</body>
+</html>
